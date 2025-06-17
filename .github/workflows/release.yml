@@ -7,6 +7,8 @@ jobs:
   homebrew:
     name: Release Zed Extension
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
     steps:
       - uses: huacnlee/zed-extension-action@v1
         with:
