@@ -1,0 +1,97 @@
+id = "harper-ls"
+name = "harper-ls"
+version = "0.0.1"
+schema_version = 1
+authors = ["Andrey Stepanov <zed.harper.b97ad@simplelogin.com>"]
+description = "Harper language server support for the Zed editor"
+repository = "https://github.com/andreystepanov/zed-harper"
+
+[language_servers.harper-ls]
+name = "Harper LS"
+# See nvim config for supported languages:
+# https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/configs/harper_ls.lua
+languages = [
+  # General Purpose
+  "Python",
+  "Go",
+  "C",
+  "Cpp",
+  "Java",
+  "Rust",
+  "Zig",
+  "Dart",
+  "Elixir",
+  "Erlang",
+  "Gleam",
+  "Groovy",
+  "Haskell",
+  "Julia",
+  "Kotlin",
+  "Nim",
+  "OCaml",
+  "PHP",
+  "PureScript",
+  "R",
+  "Racket",
+  "Roc",
+  "Ruby",
+  "Scala",
+  "Scheme",
+  "Uiua",
+
+  # Scripting
+  "Lua",
+  "Luau",
+  "Bash",
+  "Deno",
+  "Fish",
+  "GDScript",
+  "Rego",
+
+  # Web
+  "HTML",
+  "CSS",
+  "Javascript",
+  "Typescript",
+  "Svelte",
+  "Astro",
+  "Vue",
+  "Elm",
+
+  # Markup
+  "Markdown",
+  "AsciiDoc",
+  "ReStructuredText",
+  "XML",
+  "Typst",
+  "LaTeX",
+
+  # Data serialization
+  "TOML",
+  "JSON",
+  "Jsonnet",
+  "YAML",
+
+  # Compiled
+  "Swift",
+  "CSharp",
+
+  # Configuration / Automation
+  "Ansible",
+  "Docker",
+  "Makefile",
+  "Terraform",
+  "Yarn",
+
+  # Other
+  "Biome",
+  "Clojure",
+  "Emmet",
+  "GLSL",
+  "Prisma",
+  "Proto",
+
+  # Not supported yet
+  # "typescriptreact",
+  # "gitcommit",
+]
